@@ -1,4 +1,4 @@
-FROM rockylinux:8.5.20220308
+FROM rockylinux:latest
 
 RUN	 yum update -y && \
 cp -f /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
